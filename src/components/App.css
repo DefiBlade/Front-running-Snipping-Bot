@@ -1,0 +1,13 @@
+/* Styles go here */
+.me-auto {
+    margin-right: 0px;
+}
+
+.tab-content {
+    margin : 10px;
+    margin-right : 30px
+}
+
+.hidden {
+    display: none;
+}

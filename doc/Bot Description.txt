@@ -1,0 +1,35 @@
+Looking for someone to create a bot that detects when new liquidity is added to an AMM (automated market maker) pool on PancakeSwap & Uniswap.
+
+The bot allows me to buy any newly added token from PancakeSwap and Uniswap in amazing speeds (up to zero seconds from the time of the listing). It is called "sniping".
+
+The bot works by: Connecting to the blockchain network, scanning for all mempool / pending transactions, finding and matching the liquidity add transaction of the token you are trying to snipe and then placing the buy order in the same block.
+
+Speed is important… MUST be fast!
+
+The BOT would essentially:
+
+- Scan the blockchain and find transactions based on certain criteria (pending on the block aka mempool).
+
+- Front-run (specific trade volumes, slippage and gas price) transactions by placing a buy order on the same block at the same time by setting a higher gas price.
+
+- Sell immediately in the next block right after at the buy transaction on the front-ran block is completed.
+
+- Send BNB profit from trades to Metamask address after every 4 successful trades.
+
+- I would like this to be connected to a Metamask wallet.
+
+- A simple UI for the bot where I can manage parameters such as: minimum amount of the trade, slippage tolerance, range or amount to put into trades for buy and sell orders, connection to the wallet, the token contract address (one or multiple contracts at the same time), gas price parameters.
+
+- A dashboard with all the trades done and where other features can be controlled.
+
+Recap:
+
+A bot that detects when new liquidity is added to an AMM (automated market maker) pool on PancakeSwap.
+
+The bot needs to detect it and immediately execute a trade according to my parameters
+
+I need to be able to give the bots my own parameters such as: contract address, gas price, max. buying price of the token, selling price of the token, quantity of tokens to buy/sell.
+
+The interface needs to be easy to use.
+
+IMPORTANT: This project MUST be taken on by an experienced & competent developer who has done this type of project and can complete the task quickly

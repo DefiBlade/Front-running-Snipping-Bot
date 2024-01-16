@@ -1,0 +1,47 @@
+.sticky-column {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0
+}
+
+.container {
+    border: 1px solid #eeccee;
+    max-height: 300px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.datatable{
+  text-align: center;
+}
+
+.address_text{
+  width : 50%;
+}
+
+.start_button{
+  width:50%;
+  right : 0;
+}
+
+
+.short-input {
+  width: 10%;
+  margin: 15px;
+}
+
+thead:nth-last-child(1) {
+ display: none;
+}
+
+.setting-label{
+  font-size: 1.2rem;
+}
+
+.setting-btn {
+  width: 180px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
